@@ -10,10 +10,10 @@ function inverterString(string) {
         stringInvertida += string[x]
     }
 
-    console.log(stringInvertida)
+    return stringInvertida
 }
 
 console.log("String passada para a função:")
 console.log('"Quero inverter essa frase!"\n')
 
-inverterString("Quero inverter essa frase!")
+console.log(inverterString("Quero inverter essa frase!"))
